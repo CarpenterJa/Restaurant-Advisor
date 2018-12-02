@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.QdobaController">
+   <children>
+      <SplitPane dividerPositions="0.2236180904522613" layoutX="157.0" layoutY="100.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: blue;">
+               <children>
+                  <Label fx:id="name" alignment="CENTER" layoutX="26.0" layoutY="14.0" prefHeight="59.0" prefWidth="547.0" textFill="#a4b920">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: blue;">
+               <children>
+                  <SplitPane dividerPositions="0.3059210526315789" orientation="VERTICAL" prefHeight="306.0" prefWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: blue;">
+                           <children>
+                              <Label fx:id="email" prefHeight="17.0" prefWidth="199.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="60.0" />
+                              <Label fx:id="phone" prefHeight="17.0" prefWidth="255.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="35.0" />
+                              <Label fx:id="address" prefHeight="17.0" prefWidth="274.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="596.0" style="-fx-background-color: blue;">
+                           <children>
+                              <Button layoutX="450.0" layoutY="169.0" mnemonicParsing="false" onAction="#rateQdoba" text="Rate" />
+                              <Button layoutX="504.0" layoutY="169.0" mnemonicParsing="false" onAction="#commentQdoba" text="Comments" />
+                              <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="117.0" style="-fx-text-fill: #e30707; -fx-font-weight: bold; -fx-font-size: 18;" text="Food Items" textFill="#e30707">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="foodItem1" layoutX="14.0" layoutY="44.0" />
+                              <Label fx:id="foodItem2" layoutX="14.0" layoutY="70.0" />
+                              <Label fx:id="foodItem3" layoutX="14.0" layoutY="96.0" />
+                              <Button layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#returnToFastCasual" text="Return to Fast Casual" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

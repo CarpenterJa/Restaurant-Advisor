@@ -1,0 +1,10 @@
+1;McDonalds;2455 W Wisconsin Ave, Milwaukee;414-937-3750;5AM-12AM;mcdonalds@mcdonalds.com;American;Fast Food;$2-$7;Burgers,Fries,Combo;4,2,7
+2;Qdoba;803 N 16th St, Milwaukee;414-431-0099;10:30AM-3AM;QDOB@gmail.com;Mexican;Fast Casual;$6-$8;Burrito,Burrito Bowl,Quesadilla;7,8,6
+3;Subway;641 N James Lovell St, Milwaukee;414-273-1677;7AM-8PM;subway@gmail.com;Sandwich;Fast Casual;$5-$8;6in Sub,12in Sub,12in Combo;5,7,8
+4;Bollywood;1038 N Jackson St, Milwaukee;414-271-8200;11AM-10PM;bollywoodgrill@gmail.com;Indian;Family Style;$4-$12;Biryani,Naan,Curry;12,4,5
+5;ChopHouse;633 N 5th St, Milwaukee;414-226-2467;5PM-10PM;chophouse@gmail.com;American;Fine Dining;$30-$40;Prime Rib,Salmon,Ribeye;36,30,40
+6;Buffalo Wild Wings;1123 N Water St, Milwaukee;414-277-0293;11AM-12AM;bdubs@gmail.com;American;Casual Dining;$5-$10;Wings,Burgers,Salad;8,10,5
+7;Tangled;1404 W Wells St, Milwaukee;414-210-4294;10AM-9PM;tangled@gmail.com;Chinese;Casual Dining;$8-$12;Chow Mein,Fried Rice,Orange Chicken;10,12,8
+8;Zarletti;741 N Milwaukee St, Milwaukee;414 225-0000;11AM-9PM;zarletti@gmail.com;Italian;Fine Dining;$10-$35;Ravioli,Pasta,Breadsticks;35,25,10
+9;Potbelly;135 W Wisconsin Ave, Milwaukee;414-226-0014;11AM-8PM;potbelly@gmail.com;Sandwich,Pizza;Family Style;$6-$8;Sandwich,Pizza,Sausage;6,8,6
+10;Panda Express;275 Wisconsin Ave, Milwaukee;414-291-6153;10AM-7PM;pandaExpress@gmail.com;Chinese;FastFood;$4-$8;Orange Chicken,Noodles,Stir Fry;7,4,8

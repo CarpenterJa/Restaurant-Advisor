@@ -1,0 +1,48 @@
+.button {
+	-fx-background-color: #99ccff;
+}
+
+.text-field {
+	-fx-background-color: #cccccc;
+}
+
+.label {
+	-fx-text-fill: white;
+}
+
+.root {
+	-fx-background-color: blue;
+}
+
+.radio-button {
+	-fx-text-fill: white;
+}
+
+#labelStatus {
+	-fx-font-weight: bold;
+}
+
+#cuisineType1 {
+	-fx-text-fill: red;
+}
+
+#cuisineType2 {
+	-fx-text-fill: red;
+}
+
+#errorMessage {
+	-fx-text-fill: red;
+}
+
+#name1 {
+	-fx-font-weight: bold;
+}
+
+#name2 {
+	-fx-font-weight: bold;
+}
+
+#submitted {
+	-fx-text-fill: rgb(0,255,0);
+	-fx-font-weight: bold;
+}

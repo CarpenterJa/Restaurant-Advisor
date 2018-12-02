@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RateController">
+   <children>
+      <RadioButton fx:id="three" layoutX="44.0" layoutY="158.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="87.0" text="3" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="160.0">
+         <toggleGroup>
+            <ToggleGroup fx:id="number" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="one" layoutX="50.0" layoutY="69.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="87.0" text="1" toggleGroup="$number" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0" />
+      <RadioButton fx:id="two" layoutX="44.0" layoutY="131.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="87.0" text="2" toggleGroup="$number" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="130.0" />
+      <RadioButton fx:id="four" layoutX="50.0" layoutY="179.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="87.0" text="4" toggleGroup="$number" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="190.0" />
+      <RadioButton fx:id="five" layoutX="50.0" layoutY="200.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="87.0" selected="true" text="5" toggleGroup="$number" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="220.0" />
+      <Label fx:id="name" alignment="CENTER" layoutY="39.0" prefHeight="20.0" prefWidth="600.0" style="-fx-font-size: 20; -fx-font-weight: bold;" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="39.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="264.0" mnemonicParsing="false" onAction="#rate" text="Submit" />
+      <Button layoutX="276.0" layoutY="352.0" mnemonicParsing="false" onAction="#backToHomeScreen" text="Home" />
+      <Label fx:id="submitted" alignment="CENTER" layoutX="35.0" layoutY="314.0" prefHeight="27.0" prefWidth="554.0" text="Rating Submitted! You may return back to the home screen." textFill="#56f20d" visible="false" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

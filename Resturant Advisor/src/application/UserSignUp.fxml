@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewUserController">
+   <children>
+      <Button fx:id="button" layoutX="185.0" layoutY="184.0" mnemonicParsing="false" onAction="#createAccount" text="Create Account">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="newUsername" layoutX="150.0" layoutY="86.0" promptText="Username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="newPassword" layoutX="150.0" layoutY="132.0" promptText="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="labelStatus" alignment="BASELINE_CENTER" layoutX="27.0" layoutY="43.0" prefHeight="25.0" prefWidth="447.0" text="Enter the Username and Password for your account">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessage" alignment="CENTER" layoutX="27.0" layoutY="243.0" prefHeight="17.0" prefWidth="447.0" />
+   </children>
+</AnchorPane>

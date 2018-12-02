@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FastFoodController">
+   <children>
+      <SplitPane dividerPositions="0.9949832775919732" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox prefHeight="398.0" prefWidth="433.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                          <items>
+                            <AnchorPane style="-fx-background-color: blue;">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="96.0" prefHeight="97.0" prefWidth="431.0" style="-fx-font-weight: bold; -fx-font-size: 36;" text="Fast Food Restaurants" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                            <AnchorPane style="-fx-background-color: blue;">
+                                 <children>
+                                    <Label fx:id="name1" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="14.0" layoutY="11.0" textFill="WHITE" AnchorPane.leftAnchor="15.0">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font></Label>
+                                    <Button layoutX="530.0" layoutY="59.0" mnemonicParsing="false" onAction="#mcdonalds" text="Open" />
+                                    <Label fx:id="priceRange1" layoutX="123.0" layoutY="42.0" AnchorPane.leftAnchor="175.0" />
+                                    <Label fx:id="cuisineType1" layoutX="144.0" layoutY="11.0" textFill="RED" AnchorPane.leftAnchor="175.0">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font></Label>
+                                    <Label fx:id="rating1" layoutX="14.0" layoutY="42.0" AnchorPane.leftAnchor="15.0" />
+                                    <Label fx:id="hours1" layoutX="234.0" layoutY="40.0" AnchorPane.leftAnchor="315.0" />
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                        <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: blue;">
+                                 <children>
+                                    <AnchorPane style="-fx-background-color: blue;">
+                                       <children>
+                                          <Label fx:id="name2" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="14.0" layoutY="11.0" textFill="WHITE" AnchorPane.leftAnchor="15.0">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="530.0" layoutY="59.0" mnemonicParsing="false" onAction="#pandaExpress" text="Open" />
+                                          <Label fx:id="priceRange2" layoutX="123.0" layoutY="42.0" AnchorPane.leftAnchor="175.0" />
+                                          <Label fx:id="cuisineType2" layoutX="144.0" layoutY="11.0" textFill="RED" AnchorPane.leftAnchor="175.0">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="rating2" layoutX="14.0" layoutY="42.0" AnchorPane.leftAnchor="15.0" />
+                                          <Label fx:id="hours2" layoutX="234.0" layoutY="40.0" AnchorPane.leftAnchor="315.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children></AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: blue;">
+                                 <children>
+                                    <Button layoutX="14.0" layoutY="56.0" mnemonicParsing="false" onAction="#backToHomeScreen" text="Return to home" />
+                                 </children></AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
